@@ -35,7 +35,7 @@ Indian law only. Identify the State/UT and the district: the Sessions Division f
 
 Check these before stating a section, period or test as current, and record the date checked:
 
-- BNSS, 2023 Chapter XXXV (ss.478–496 bail and bonds), s.35 (arrest without warrant; s.35(3) notice; s.35(7) prior permission for infirm/60+ persons in offences under three years), s.187 (remand; s.187(3) 60/90-day limits), s.479 (undertrial release): [India Code](https://www.indiacode.nic.in/).
+- BNSS, 2023 Chapter XXXV (ss.478–496 bail and bonds), s.35 (arrest without warrant; s.35(3) notice; s.35(7) prior permission for infirm/60+ persons in offences under three years), s.187 (remand; s.187(3) 60/90-day limits), s.479 (undertrial release): [India Code](https://www.indiacode.gov.in/).
 - Bailability and punishment: the **First Schedule to the BNSS** for BNS offences; for IPC offences in proceedings pending on 1 July 2024, the CrPC First Schedule as saved by BNSS s.531.
 - Special statutes with their own bail tests: NDPS Act s.37, UAPA s.43D(5), PMLA s.45, SC/ST (PoA) Act s.18/18A (bar on anticipatory bail), POCSO (no separate test, but s.483 notice to informant and gravity), Juvenile Justice Act s.12 (bail of a child is the rule).
 - Supreme Court decisions by neutral citation on [sci.gov.in](https://www.sci.gov.in/); the ones that control bail practice are summarised in [references/case-law.md](references/case-law.md).

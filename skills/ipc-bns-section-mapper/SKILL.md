@@ -35,7 +35,7 @@ Indian criminal law only. The three new codes are Central Acts applying across I
 
 Numbering is the easiest thing to get wrong and the easiest thing to check. Before quoting any mapping as settled:
 
-- Read the **new section's text** on [India Code](https://www.indiacode.nic.in/) — BNS (Act 45 of 2023), BNSS (Act 46 of 2023), BSA (Act 47 of 2023). Confirm the ingredients match the old provision; many BNS sections merge several IPC sections into sub-sections, so "IPC 420 → BNS 318(4)" means the *punishment* sub-section, while the definition sits in 318(1).
+- Read the **new section's text** on [India Code](https://www.indiacode.gov.in/) — BNS (Act 45 of 2023), BNSS (Act 46 of 2023), BSA (Act 47 of 2023). Confirm the ingredients match the old provision; many BNS sections merge several IPC sections into sub-sections, so "IPC 420 → BNS 318(4)" means the *punishment* sub-section, while the definition sits in 318(1).
 - Commencement notifications (S.O. 850(E), 851(E), 852(E) of 23 February 2024) and any later amendment: [e-Gazette](https://egazette.gov.in/).
 - For the governing-code question, read **BNSS s.531** (repeal and savings), **BNS s.358** and **BSA s.170**, and check the latest Supreme Court / your High Court position — High Courts have differed on edge cases in the first year.
 

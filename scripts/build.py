@@ -27,6 +27,7 @@ OWNER = {"name": "Rahul Beniwal", "url": f"https://github.com/{REPO.split('/')[0
 
 # Display order of the index. A skill's metadata.category must be one of these.
 CATEGORIES = [
+    "Intake & Triage",
     "Criminal Law",
     "Civil Procedure & Limitation",
     "Consumer Protection",

@@ -21,6 +21,38 @@ REQUIRED_FILES = ["SKILL.md", "README.md", "LICENSE.txt"]
 DISCLAIMER_HINTS = ("not legal advice", "qualified advocate", "legal advice")
 # Every skill names the forum/State it applies to, says where to verify, and lists what it must not do.
 REQUIRED_HEADINGS = ("Jurisdiction gate", "Verify before relying", "Guardrails")
+REGISTRY = ROOT / "sources" / "official-sources.json"
+URL_RE = re.compile(r"https?://([A-Za-z0-9.-]+)")
+GOV_SUFFIXES = (".gov.in", ".nic.in", ".gov")
+
+
+def load_registry() -> tuple[set[str], dict[str, str]]:
+    """Registered hosts, and deprecated host -> replacement."""
+    if not REGISTRY.exists():
+        return set(), {}
+    import json
+
+    data = json.loads(REGISTRY.read_text(encoding="utf-8"))
+    hosts = {h.lower() for s in data.get("sources", []) for h in s.get("hosts", [])}
+    deprecated = {d["host"].lower(): d["use"] for d in data.get("deprecated", [])}
+    return hosts, deprecated
+
+
+def check_hosts(folder: Path, hosts: set[str], deprecated: dict[str, str]) -> tuple[list[str], list[str]]:
+    """Government hosts a skill cites must be in the registry; deprecated ones are errors, unknown ones warnings."""
+    errs, warns = [], []
+    seen: set[str] = set()
+    for p in list(folder.rglob("*.md")) + list(folder.rglob("*.py")) + list(folder.rglob("*.csv")):
+        for host in URL_RE.findall(p.read_text(encoding="utf-8", errors="ignore")):
+            host = host.lower().rstrip(".")
+            if host in seen:
+                continue
+            seen.add(host)
+            if host in deprecated:
+                errs.append(f"{p.relative_to(ROOT)}: deprecated host {host} — use {deprecated[host]}")
+            elif host.endswith(GOV_SUFFIXES) and host not in hosts:
+                warns.append(f"{p.relative_to(ROOT)}: government host {host} not in sources/official-sources.json — add it (with access notes) or fix the URL")
+    return errs, warns
 
 
 def check_skill(folder: Path) -> list[str]:
@@ -99,11 +131,18 @@ def main() -> int:
         print("no skills found under skills/")
         return 0
     errors: list[str] = []
+    warnings: list[str] = []
+    hosts, deprecated = load_registry()
     for folder in folders:
         errors += check_skill(folder)
+        e, w = check_hosts(folder, hosts, deprecated)
+        errors += e
+        warnings += w
+    for w in warnings:
+        print("WARN ", w)
     for e in errors:
         print("ERROR", e)
-    print(f"{len(folders)} skills checked, {len(errors)} error(s)")
+    print(f"{len(folders)} skills checked, {len(errors)} error(s), {len(warnings)} warning(s)")
     return 1 if errors else 0
 
 

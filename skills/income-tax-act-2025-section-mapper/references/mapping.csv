@@ -1,0 +1,210 @@
+old_act,old_section,new_act,new_section,subject,note
+ITA1961,1,ITA2025,1,Short title and commencement,2-source agreement
+ITA1961,2,ITA2025,2,Definitions,2-source agreement
+ITA1961,3,ITA2025,3,"Tax year (replaces ""previous year""; ""assessment year"" abolished)",2-source agreement
+ITA1961,4,ITA2025,4,Charge of income-tax,2-source agreement
+ITA1961,5,ITA2025,5,Scope of total income,2-source agreement
+ITA1961,5A,ITA2025,10,Apportionment of income between spouses (Portuguese Civil Code),single source (verify)
+ITA1961,6,ITA2025,6,Residence in India,2-source agreement
+ITA1961,9,ITA2025,9,Income deemed to accrue or arise in India,single source (verify)
+ITA1961,10,ITA2025,11 read with Schedules II–VII,Incomes not included in total income (exemptions moved into Schedules),2-source agreement
+ITA1961,10(10),ITA2025,19,Gratuity exemption (now framed as a deduction from salary),2-source agreement
+ITA1961,10(10AA),ITA2025,19,Leave encashment on retirement,2-source agreement
+ITA1961,10(10B),ITA2025,19,Retrenchment compensation,single source (verify)
+ITA1961,10(10D),ITA2025,Schedule II,Life insurance policy proceeds,(verify — sources diverge: Schedule II vs s.11(2)(f))
+ITA1961,10(13A),ITA2025,11 read with Schedule III,House rent allowance,2-source agreement
+ITA1961,10AA,ITA2025,144,Newly established units in SEZ,single source (verify)
+ITA1961,11,ITA2025,—,"Charitable/religious trusts — restructured into a dedicated chapter on registered non-profit organisations","no 1:1 row; read the 2025 Act's non-profit chapter (verify section range)"
+ITA1961,12,ITA2025,—,"Voluntary contributions to trusts — restructured (see s.11 row)",no 1:1 row (verify)
+ITA1961,13A,ITA2025,12,Income of political parties,2-source agreement
+ITA1961,14A,ITA2025,14,Expenditure on exempt income,single source (verify)
+ITA1961,15,ITA2025,15,Salaries — charge,2-source agreement
+ITA1961,16,ITA2025,19,Deductions from salary incl. standard deduction,2-source agreement (one source says 123)
+ITA1961,17(1),ITA2025,16,"""Salary"" defined",2-source agreement
+ITA1961,17(2),ITA2025,17,Perquisites,2-source agreement
+ITA1961,17(3),ITA2025,18,Profits in lieu of salary,2-source agreement
+ITA1961,22,ITA2025,20,Income from house property — charge,2-source agreement
+ITA1961,23,ITA2025,21,Annual value,2-source agreement
+ITA1961,24,ITA2025,22,Deductions from house property (30% standard; interest),2-source agreement
+ITA1961,24(b),ITA2025,22(1)(b),Interest on borrowed capital (₹2 lakh cap in s.22(2)(a)),2-source agreement
+ITA1961,25A,ITA2025,23,Arrears / unrealised rent received later,2-source agreement
+ITA1961,26,ITA2025,24,Property owned by co-owners,2-source agreement
+ITA1961,27,ITA2025,25,Interpretation (house property),single source (verify)
+ITA1961,28,ITA2025,26,Profits and gains of business or profession — charge,2-source agreement
+ITA1961,29,ITA2025,27,Computation of business income,single source (verify)
+ITA1961,30,ITA2025,28,"Rent, rates, taxes, repairs of buildings",2-source agreement
+ITA1961,31,ITA2025,28,"Repairs and insurance of machinery, plant, furniture",(verify — one source groups ss.30–32 into s.28)
+ITA1961,32,ITA2025,33,Depreciation,(verify — sources diverge: 33 (two sources) vs 28)
+ITA1961,35,ITA2025,45,Scientific research expenditure,(verify — sources diverge: 45 vs 135)
+ITA1961,35AD,ITA2025,46,Specified business capital expenditure,single source (verify)
+ITA1961,36,ITA2025,32,Other deductions,single source (verify)
+ITA1961,37,ITA2025,34,General deduction,single source (verify)
+ITA1961,40,ITA2025,35,Amounts not deductible,single source (verify)
+ITA1961,40(a)(ia),ITA2025,35,Disallowance for TDS default,single source (verify)
+ITA1961,40A,ITA2025,36,Expenses not deductible in certain circumstances (cash payments etc.),2-source agreement
+ITA1961,41,ITA2025,38,Deemed profits,single source (verify)
+ITA1961,43B,ITA2025,37,Deductions only on actual payment (incl. MSME dues),single source (verify)
+ITA1961,44AA,ITA2025,62,Maintenance of books of account,2-source agreement
+ITA1961,44AB,ITA2025,63,Tax audit,2-source agreement
+ITA1961,44AD,ITA2025,58,Presumptive taxation — business (table serial 1),2-source agreement (one source says 61)
+ITA1961,44ADA,ITA2025,58,Presumptive taxation — profession,2-source agreement
+ITA1961,44AE,ITA2025,58,Presumptive taxation — goods carriages,2-source agreement
+ITA1961,45,ITA2025,67,Capital gains — charge,2-source agreement
+ITA1961,46,ITA2025,68,Capital gains on distribution in liquidation,single source (verify)
+ITA1961,46A,ITA2025,69,Capital gains on buy-back,single source (verify)
+ITA1961,47,ITA2025,70,Transactions not regarded as transfer,2-source agreement
+ITA1961,47A,ITA2025,71,Withdrawal of exemption,single source (verify)
+ITA1961,48,ITA2025,72,Mode of computation,2-source agreement
+ITA1961,49,ITA2025,73,Cost with reference to certain modes of acquisition,2-source agreement
+ITA1961,50,ITA2025,74,Depreciable assets,2-source agreement
+ITA1961,50B,ITA2025,77,Slump sale,2-source agreement
+ITA1961,50C,ITA2025,78,Stamp duty value as full value of consideration (land/building),2-source agreement
+ITA1961,50CA,ITA2025,79,Unquoted shares — FMV as consideration,2-source agreement
+ITA1961,50D,ITA2025,80,FMV deemed full value where consideration not ascertainable,single source (verify)
+ITA1961,51,ITA2025,81,Advance money received,single source (verify)
+ITA1961,54,ITA2025,82,Residential house reinvestment exemption,2-source agreement
+ITA1961,54B,ITA2025,83,Agricultural land,2-source agreement
+ITA1961,54D,ITA2025,84,Compulsory acquisition,single source (verify)
+ITA1961,54EC,ITA2025,85,Investment in specified bonds,2-source agreement
+ITA1961,54F,ITA2025,86,Investment in residential house (other assets),2-source agreement
+ITA1961,54G,ITA2025,87,Shifting undertaking from urban area,single source (verify)
+ITA1961,54GA,ITA2025,88,Shifting undertaking to SEZ,single source (verify)
+ITA1961,55,ITA2025,90,Cost of acquisition / improvement — meaning,2-source agreement
+ITA1961,55A,ITA2025,91,Reference to Valuation Officer,single source (verify)
+ITA1961,56,ITA2025,92,Income from other sources,2-source agreement
+ITA1961,57,ITA2025,93,Deductions (other sources),2-source agreement
+ITA1961,58,ITA2025,94,Amounts not deductible (other sources),2-source agreement
+ITA1961,59,ITA2025,95,Profits chargeable to tax (other sources),single source (verify)
+ITA1961,60,ITA2025,96,Transfer of income without transfer of asset,single source (verify)
+ITA1961,61,ITA2025,97,Revocable transfer of assets,single source (verify)
+ITA1961,64,ITA2025,99,Clubbing — spouse and minor child,2-source agreement
+ITA1961,68,ITA2025,102,Unexplained cash credits,2-source agreement
+ITA1961,69,ITA2025,103,Unexplained investments,2-source agreement
+ITA1961,69A,ITA2025,104,Unexplained money / assets,2-source agreement
+ITA1961,69C,ITA2025,105,Unexplained expenditure,2-source agreement
+ITA1961,69D,ITA2025,106,Hundi borrowings/repayments,2-source agreement
+ITA1961,70,ITA2025,108,Set-off within the same head,2-source agreement
+ITA1961,71,ITA2025,109,Set-off against other heads,2-source agreement
+ITA1961,71B,ITA2025,110,Carry forward of house property loss,2-source agreement
+ITA1961,72,ITA2025,112,Carry forward of business loss,2-source agreement
+ITA1961,72A,ITA2025,116,Accumulated loss in amalgamation / demerger,single source (verify)
+ITA1961,73,ITA2025,113,Speculation losses,2-source agreement
+ITA1961,73A,ITA2025,114,Losses of specified business,single source (verify)
+ITA1961,74,ITA2025,111,Capital losses,2-source agreement
+ITA1961,74A,ITA2025,115,Losses from owning and maintaining race horses,single source (verify)
+ITA1961,78,ITA2025,119,Losses on change in constitution / shareholding,2-source agreement
+ITA1961,79,ITA2025,119,Carry forward restriction on change in shareholding,2-source agreement
+ITA1961,80,ITA2025,121,Return required for carrying forward losses,2-source agreement
+ITA1961,80A,ITA2025,122,Deductions — general provisions,2-source agreement
+ITA1961,80C,ITA2025,123 read with Schedule XV,"Life insurance, PF, PPF, ELSS, tuition etc.",2-source agreement
+ITA1961,80CCC,ITA2025,123,Pension fund contribution (merged into s.123),2-source agreement
+ITA1961,80CCD,ITA2025,124,NPS contributions,2-source agreement
+ITA1961,80CCD(1B),ITA2025,124(3)–(4),Additional NPS contribution,single source (verify)
+ITA1961,80CCD(2),ITA2025,124(1)–(2),Employer NPS contribution,single source (verify)
+ITA1961,80CCH,ITA2025,125,Agnipath Scheme contributions,2-source agreement
+ITA1961,80D,ITA2025,126,Health insurance premium,2-source agreement
+ITA1961,80DD,ITA2025,127,Maintenance of dependant with disability,2-source agreement
+ITA1961,80DDB,ITA2025,128,Medical treatment of specified diseases,2-source agreement
+ITA1961,80E,ITA2025,129,Interest on education loan,2-source agreement
+ITA1961,80EE,ITA2025,130,Home loan interest (first-time buyers; legacy),2-source agreement
+ITA1961,80EEA,ITA2025,131,Home loan interest — affordable housing (legacy),2-source agreement
+ITA1961,80EEB,ITA2025,132,Electric vehicle loan interest,2-source agreement
+ITA1961,80G,ITA2025,133,Donations,2-source agreement
+ITA1961,80GG,ITA2025,134,Rent paid where no HRA,2-source agreement
+ITA1961,80GGA,ITA2025,135,Donations for scientific research / rural development,2-source agreement
+ITA1961,80GGB,ITA2025,136,Company contributions to political parties,2-source agreement
+ITA1961,80GGC,ITA2025,137,Contributions to political parties by others,2-source agreement
+ITA1961,80-IA,ITA2025,138,Infrastructure undertakings,single source (verify)
+ITA1961,80-IAB,ITA2025,139,SEZ developers,single source (verify)
+ITA1961,80-IAC,ITA2025,140,Eligible start-ups,2-source agreement
+ITA1961,80-IB,ITA2025,141,Certain industrial undertakings,single source (verify)
+ITA1961,80-IBA,ITA2025,142,Affordable housing projects,single source (verify)
+ITA1961,80-IE,ITA2025,143,North-Eastern States undertakings,single source (verify)
+ITA1961,80JJA,ITA2025,145,Bio-degradable waste business,single source (verify)
+ITA1961,80JJAA,ITA2025,146,Additional employee cost,single source (verify)
+ITA1961,80LA,ITA2025,147,Offshore banking units / IFSC,single source (verify)
+ITA1961,80M,ITA2025,148,Inter-corporate dividends,single source (verify)
+ITA1961,80P,ITA2025,149,Co-operative societies,2-source agreement
+ITA1961,80QQB,ITA2025,151,Royalty income of authors,single source (verify)
+ITA1961,80RRB,ITA2025,152,Royalty on patents,single source (verify)
+ITA1961,80TTA,ITA2025,153,Savings account interest (merged with 80TTB),2-source agreement
+ITA1961,80TTB,ITA2025,153,Senior citizens' deposit interest (merged),2-source agreement
+ITA1961,80U,ITA2025,154,Person with disability,2-source agreement
+ITA1961,87,ITA2025,155,Rebates — general,2-source agreement
+ITA1961,87A,ITA2025,156,Rebate for resident individuals,2-source agreement
+ITA1961,89,ITA2025,157,Relief for salary in arrears / advance,2-source agreement
+ITA1961,89A,ITA2025,158,Relief for retirement accounts in notified countries,single source (verify)
+ITA1961,90,ITA2025,159,Double taxation relief — agreements,2-source agreement
+ITA1961,90A,ITA2025,159,Agreements with specified associations,2-source agreement
+ITA1961,91,ITA2025,160,Relief where no agreement,2-source agreement
+ITA1961,111,ITA2025,191,Tax on accumulated balance of recognised PF,single source (verify)
+ITA1961,111A,ITA2025,196,STCG on listed equity (STT paid),2-source agreement
+ITA1961,112,ITA2025,197,LTCG — general,2-source agreement
+ITA1961,112A,ITA2025,198,LTCG on listed equity (STT paid),2-source agreement
+ITA1961,115BAA,ITA2025,200,Concessional tax for domestic companies,single source (verify)
+ITA1961,115BAB,ITA2025,201,New manufacturing companies,single source (verify)
+ITA1961,115BAC,ITA2025,202,New (default) regime for individuals/HUF,2-source agreement
+ITA1961,115BBE,ITA2025,195,Tax on unexplained income (ss.68–69D),single source (verify)
+ITA1961,139,ITA2025,263,Return of income,2-source agreement
+ITA1961,139(1),ITA2025,263(1),Original return,2-source agreement
+ITA1961,139(4),ITA2025,263(4),Belated return,2-source agreement
+ITA1961,139(5),ITA2025,263(5),Revised return,2-source agreement
+ITA1961,139(8A),ITA2025,263(6),Updated return (ITR-U),2-source agreement
+ITA1961,139A,ITA2025,262,Permanent Account Number,2-source agreement
+ITA1961,139AA,ITA2025,262,Aadhaar quoting,2-source agreement
+ITA1961,139B,ITA2025,264,Tax return preparer scheme,2-source agreement
+ITA1961,140,ITA2025,265,Verification of return,2-source agreement
+ITA1961,140A,ITA2025,266,Self-assessment tax,2-source agreement
+ITA1961,140B,ITA2025,267,Tax on updated return,2-source agreement
+ITA1961,143(1),ITA2025,270(1),Intimation after processing,single source (verify)
+ITA1961,143(2),ITA2025,270,Scrutiny notice (sub-section — verify),single source (verify)
+ITA1961,143(3),ITA2025,270(10),Scrutiny assessment order,single source (verify)
+ITA1961,144,ITA2025,271,Best judgment assessment,single source (verify)
+ITA1961,147,ITA2025,279,Income escaping assessment,2-source agreement
+ITA1961,148,ITA2025,280,Notice for reassessment,2-source agreement
+ITA1961,148A,ITA2025,281,Show-cause procedure before reassessment,2-source agreement
+ITA1961,192,ITA2025,392,TDS on salary,2-source agreement
+ITA1961,193,ITA2025,393(1) table,TDS on interest on securities,2-source agreement
+ITA1961,194,ITA2025,393(1) table,TDS on dividends,2-source agreement
+ITA1961,194A,ITA2025,393(1) table,TDS on other interest,2-source agreement
+ITA1961,194B,ITA2025,393(3),TDS on lottery / crossword winnings,2-source agreement
+ITA1961,194C,ITA2025,393(1) table serial 6(i),TDS on contractor payments,2-source agreement
+ITA1961,194D,ITA2025,393(1) table,TDS on insurance commission,single source (verify)
+ITA1961,194H,ITA2025,393(1) table,TDS on commission / brokerage,2-source agreement
+ITA1961,194I,ITA2025,393(1) table,TDS on rent,2-source agreement
+ITA1961,194IA,ITA2025,393(1) table,TDS on transfer of immovable property,2-source agreement
+ITA1961,194IB,ITA2025,393(1) table,TDS on rent by individuals/HUF,single source (verify)
+ITA1961,194J,ITA2025,393(1) table serial 6(iii),TDS on professional / technical fees,2-source agreement
+ITA1961,194LA,ITA2025,393(1) table,TDS on compensation on compulsory acquisition,single source (verify)
+ITA1961,194M,ITA2025,393(1) table,TDS by individuals/HUF on contract/professional payments,single source (verify)
+ITA1961,194N,ITA2025,393(3),TDS on cash withdrawal,2-source agreement
+ITA1961,194O,ITA2025,393(1) table,TDS by e-commerce operator,single source (verify)
+ITA1961,194Q,ITA2025,393(1) table,TDS on purchase of goods,single source (verify)
+ITA1961,194R,ITA2025,393(1) table,TDS on business perquisites,single source (verify)
+ITA1961,194S,ITA2025,393(1) table,TDS on virtual digital assets,single source (verify)
+ITA1961,194T,ITA2025,393(3),TDS on payments by firm to partner,2-source agreement
+ITA1961,195,ITA2025,393(2),TDS on payments to non-residents,2-source agreement
+ITA1961,197,ITA2025,395,Lower / nil deduction certificate,2-source agreement
+ITA1961,203,ITA2025,395,TDS certificate,single source (verify)
+ITA1961,206AA,ITA2025,397(2),Higher TDS where no PAN,single source (verify)
+ITA1961,206C,ITA2025,394,Tax collected at source,2-source agreement
+ITA1961,206C(1G),ITA2025,394,TCS on LRS remittances / overseas tour packages,2-source agreement
+ITA1961,207,ITA2025,403–408 (block),Advance tax — liability (ss.207–211 map to ss.403–408),single source (verify)
+ITA1961,208,ITA2025,403–408 (block),Advance tax — conditions of liability,single source (verify)
+ITA1961,209,ITA2025,403–408 (block),Advance tax — computation,single source (verify)
+ITA1961,210,ITA2025,403–408 (block),Advance tax — payment by assessee / order by AO,single source (verify)
+ITA1961,211,ITA2025,403–408 (block),Advance tax — instalments,single source (verify)
+ITA1961,234A,ITA2025,423,Interest for late return,2-source agreement (one source says 430)
+ITA1961,234B,ITA2025,424,Interest for default in advance tax,2-source agreement
+ITA1961,234C,ITA2025,425,Interest for deferment of advance tax,2-source agreement
+ITA1961,234E,ITA2025,427,Fee for late TDS/TCS statement,single source (verify)
+ITA1961,234F,ITA2025,428(a),Fee for late return,2-source agreement
+ITA1961,270A,ITA2025,439,Penalty for under-reporting / misreporting,2-source agreement
+ITA1961,271(1)(c),ITA2025,—,Concealment penalty — reported as not carried into the 2025 Act,single source (verify)
+ITA1961,271AAC,ITA2025,—,Penalty on unexplained income — reported as not carried forward,single source (verify)
+ITA1961,271B,ITA2025,428(c),Failure to get accounts audited (now a fee),single source (verify)
+ITA1961,271BA,ITA2025,428(d),Failure to furnish transfer-pricing report (now a fee),single source (verify)
+ITA1961,271H,ITA2025,461,Penalty for incorrect TDS/TCS statement,single source (verify)
+ITA1961,277,ITA2025,482,Prosecution for false verification,single source (verify)
+ITA1961,285BA,ITA2025,508,Statement of financial transactions,single source (verify)
+ITA1961,285BB,ITA2025,510,Annual information statement,single source (verify)

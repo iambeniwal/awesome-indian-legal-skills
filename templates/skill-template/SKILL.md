@@ -29,7 +29,7 @@ This skill applies Indian law only. Confirm the matter is governed by Indian law
 
 Section numbers, fees, pecuniary limits and timelines change. Before stating any of them as current, check the official source and note the date checked:
 
-- Statute text and amendments: [India Code](https://www.indiacode.nic.in/)
+- Statute text and amendments: [India Code](https://www.indiacode.gov.in/)
 - Commencement notifications and rules: [e-Gazette](https://egazette.gov.in/)
 - Supreme Court decisions: [sci.gov.in](https://www.sci.gov.in/) (neutral citation `YYYY INSC NNN`)
 - *(add the forum- or regulator-specific portal for this skill)*

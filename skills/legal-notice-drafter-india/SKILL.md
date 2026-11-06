@@ -37,7 +37,7 @@ Indian law only. Identify the State: tenancy notices interact with State Rent Co
 
 Mandatory periods and contents are the part people get wrong. Before stating one:
 
-- Statute text: [India Code](https://www.indiacode.nic.in/) — CPC s.80; TPA s.106; Arbitration and Conciliation Act ss.11, 21; Commercial Courts Act s.12A; MSMED Act ss.15–19; IBC ss.8–9; SARFAESI ss.13, 17; Industrial Disputes Act s.25F / Industrial Relations Code, 2020 (check commencement on [e-Gazette](https://egazette.gov.in/)).
+- Statute text: [India Code](https://www.indiacode.gov.in/) — CPC s.80; TPA s.106; Arbitration and Conciliation Act ss.11, 21; Commercial Courts Act s.12A; MSMED Act ss.15–19; IBC ss.8–9; SARFAESI ss.13, 17; Industrial Disputes Act s.25F / Industrial Relations Code, 2020 (check commencement on [e-Gazette](https://egazette.gov.in/)).
 - Decisions by neutral citation on [sci.gov.in](https://www.sci.gov.in/).
 - The statutes with mandatory notices are tabulated in [references/statutory-notices.md](references/statutory-notices.md) — read it whenever the notice is or might be statutory. For a statute not in the table, do not state a period from memory; verify on India Code first.
 

@@ -34,7 +34,7 @@ Indian law only, and **State-specific**: RERA is a Central Act but each State/UT
 
 ## Verify before relying
 
-- The Act (ss.2, 3, 4, 11–19, 31, 40, 43–44, 58–63, 71, 79, 88–89): [India Code](https://www.indiacode.nic.in/)
+- The Act (ss.2, 3, 4, 11–19, 31, 40, 43–44, 58–63, 71, 79, 88–89): [India Code](https://www.indiacode.gov.in/)
 - The **State RERA Rules** (prescribed interest rate, complaint form, fee, agreement-for-sale model) and the **State portal** (project registration search, online filing, Authority orders including COVID/force-majeure extensions): find it from the State's RERA website (MahaRERA, UP-RERA, K-RERA, HRERA Gurugram/Panchkula, TNRERA, RERA Punjab, Gujarat RERA, Delhi RERA, etc.). Do not rely on a portal URL from memory; search for "<State> RERA" and confirm the domain ends in a government domain.
 - Supreme Court decisions by neutral citation on [sci.gov.in](https://www.sci.gov.in/); the ones this skill leans on are summarised in [references/case-law-and-forums.md](references/case-law-and-forums.md).
 

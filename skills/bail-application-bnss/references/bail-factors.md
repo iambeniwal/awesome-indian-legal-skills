@@ -1,6 +1,6 @@
 # Bail: factors, categories and statutory limits
 
-Working checklist for the Factors section of a bail audit. Verify the section text on [India Code](https://www.indiacode.nic.in/) before quoting; the BNSS numbering is given with the CrPC equivalent in brackets.
+Working checklist for the Factors section of a bail audit. Verify the section text on [India Code](https://www.indiacode.gov.in/) before quoting; the BNSS numbering is given with the CrPC equivalent in brackets.
 
 ## 1. Section correspondence
 

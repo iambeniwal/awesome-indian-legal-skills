@@ -17,7 +17,7 @@ undertrial — s.479: one-half of the maximum imprisonment for the offence; one-
   (never convicted of any offence). Not available for offences punishable with death or life imprisonment,
   nor where more than one case/offence is pending (s.479(2)). Fractions are applied in calendar months.
 
-Verify ss.187 and 479 on https://www.indiacode.nic.in/ — this script encodes the text as read on the version date.
+Verify ss.187 and 479 on https://www.indiacode.gov.in/ — this script encodes the text as read on the version date.
 """
 from __future__ import annotations
 

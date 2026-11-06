@@ -23,7 +23,7 @@ Counting conventions (state them in any filing):
     revives nothing).
   * Court holidays are NOT applied. If the last date is a day the court is closed, s.4 moves it to the next
     day the court is open — check the court's calendar.
-Verify the Article and the special-law text on https://www.indiacode.nic.in/ before relying on any output.
+Verify the Article and the special-law text on https://www.indiacode.gov.in/ before relying on any output.
 """
 from __future__ import annotations
 

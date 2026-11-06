@@ -36,7 +36,7 @@ Indian law only. Confirm the s.3 nexus (below) before doing anything else: proce
 
 This is the area most likely to have moved since the skill's version date. Before stating a date, rule number or penalty as current, check and record the date checked:
 
-- Act text (Act 22 of 2023, assented 11 August 2023): [India Code](https://www.indiacode.nic.in/)
+- Act text (Act 22 of 2023, assented 11 August 2023): [India Code](https://www.indiacode.gov.in/)
 - DPDP Rules, 2025 and their phased commencement notification: [e-Gazette](https://egazette.gov.in/) and [MeitY](https://www.meity.gov.in/)
 - Data Protection Board notifications, SDF designations, restricted-country list under s.16, startup/research exemptions under s.17: e-Gazette
 - Constitutional challenges to the Act or Rules pending before the Supreme Court can change the timeline: [sci.gov.in](https://www.sci.gov.in/)

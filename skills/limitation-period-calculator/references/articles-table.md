@@ -1,6 +1,6 @@
 # Limitation periods — the ones practitioners use most
 
-A shortlist, not the Schedule. Read the Article's full text on [India Code](https://www.indiacode.nic.in/) before relying on it: the third column ("time from which period begins to run") is where cases are won and lost. "Condonation" below means s.5 Limitation Act or the statute's own power; s.5 never applies to suits.
+A shortlist, not the Schedule. Read the Article's full text on [India Code](https://www.indiacode.gov.in/) before relying on it: the third column ("time from which period begins to run") is where cases are won and lost. "Condonation" below means s.5 Limitation Act or the statute's own power; s.5 never applies to suits.
 
 ## Part I — Suits (Limitation Act, 1963, Schedule)
 

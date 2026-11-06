@@ -36,7 +36,7 @@ Indian law only. Identify the State and the court: s.4 turns on that court's hol
 
 The Article and the period must be read from the statute, not recalled. Before stating any period as current, check and record the date checked:
 
-- Limitation Act, 1963 — ss.3–24 and the Schedule: [India Code](https://www.indiacode.nic.in/). Read the Article's three columns (description, period, time from which it runs) in full.
+- Limitation Act, 1963 — ss.3–24 and the Schedule: [India Code](https://www.indiacode.gov.in/). Read the Article's three columns (description, period, time from which it runs) in full.
 - The special statute's own period and whether it excludes ss.4–24 (s.29(2)): e.g. Arbitration and Conciliation Act s.34(3), Commercial Courts Act s.13, IBC s.61, Consumer Protection Act s.69 — India Code.
 - The COVID-19 orders: *In re Cognizance for Extension of Limitation*, Suo Motu W.P.(C) 3/2020, final order of 10 January 2022 (2022) 3 SCC 117 — [sci.gov.in](https://www.sci.gov.in/).
 - Controlling decisions on condonation and computation: summarised in [references/case-law.md](references/case-law.md).

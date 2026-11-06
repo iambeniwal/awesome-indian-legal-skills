@@ -1,6 +1,6 @@
 # Statutory notices in Indian practice
 
-Verify every period and content requirement on [India Code](https://www.indiacode.nic.in/) before drafting — amendments and State variations exist. Decisions: confirm on [sci.gov.in](https://www.sci.gov.in/). Holdings are one-line summaries.
+Verify every period and content requirement on [India Code](https://www.indiacode.gov.in/) before drafting — amendments and State variations exist. Decisions: confirm on [sci.gov.in](https://www.sci.gov.in/). Holdings are one-line summaries.
 
 ## The table
 

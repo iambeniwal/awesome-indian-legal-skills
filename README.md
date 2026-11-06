@@ -1,12 +1,12 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/cover-dark-v2.png">
-    <img src="assets/cover-light-v2.png" alt="Awesome Indian Legal Skills — Agent Skills for Indian law: open-source SKILL.md workflows for BNS/BNSS/BSA, cheque bounce, bail, RTI, consumer, RERA, limitation, DPDP and citation checking" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/cover-dark-v3.png">
+    <img src="assets/cover-light-v3.png" alt="Awesome Indian Legal Skills — Agent Skills for Indian law: open-source SKILL.md workflows for BNS/BNSS/BSA, cheque bounce, bail, RTI, consumer, RERA, limitation, DPDP and citation checking" width="100%">
   </picture>
 </p>
 
 <p align="center">
-  <a href="#table-of-contents"><img src="https://img.shields.io/badge/Skills-10-orange.svg" alt="Skills" /></a>
+  <a href="#table-of-contents"><img src="https://img.shields.io/badge/Skills-19-orange.svg" alt="Skills" /></a>
   <a href="#contributing"><img src="https://img.shields.io/badge/Contributions-welcome-brightgreen.svg" alt="Contributions welcome" /></a>
   <a href="#license"><img src="https://img.shields.io/badge/Skills-MIT-blue.svg" alt="MIT" /></a>
   <a href="#license"><img src="https://img.shields.io/badge/List-CC%20BY%204.0-lightgrey.svg" alt="CC BY 4.0" /></a>
@@ -43,20 +43,30 @@ claude plugin install indian-legal-skills@awesome-indian-legal-skills
 <!-- INDEX_START -->
 # Table of Contents
 
+- [Intake & Triage](#intake-triage)
 - [Criminal Law](#criminal-law)
 - [Civil Procedure & Limitation](#civil-procedure-limitation)
 - [Consumer Protection](#consumer-protection)
 - [Real Estate & RERA](#real-estate-rera)
 - [Public Law & RTI](#public-law-rti)
 - [Data Protection & Technology](#data-protection-technology)
+- [Corporate & Commercial](#corporate-commercial)
+- [Tax & GST](#tax-gst)
+- [Employment & Labour](#employment-labour)
 - [Legal Drafting](#legal-drafting)
 - [Legal Research & Citations](#legal-research-citations)
+
+## Intake & Triage
+
+- 🇮🇳 [hinglish-legal-intake-router](<skills/hinglish-legal-intake-router>) · हिन्दी - The front door for a lay user who describes a legal problem in Hindi, Hinglish (romanised Hindi) or plain English — "police FIR nahi likh rahi", "cheque bounce ho gaya kya karu", "builder possession nahi de raha", "company ne salary nahi...
 
 ## Criminal Law
 
 - 🇮🇳 [bail-application-bnss](<skills/bail-application-bnss>) - Audits a bail matter under the BNSS, 2023 and drafts the application: regular bail (s.480 Magistrate / s.483 Sessions and High Court), anticipatory bail (s.482), default bail when the charge sheet is late (s.187(3)), undertrial release at...
 - 🇮🇳 [cheque-bounce-s138-advisor](<skills/cheque-bounce-s138-advisor>) - Audits a dishonoured-cheque matter under section 138 of the Negotiable Instruments Act, 1881 and drafts the statutory demand notice, the complaint, or the reply. Computes every deadline in the chain (presentment, 30-day notice, 15-day...
+- 🇮🇳 [fir-and-police-complaint-drafter](<skills/fir-and-police-complaint-drafter>) - Gets a crime registered and documented under the BNSS, 2023 and works the remedies when the police will not act: drafts the written complaint for an FIR (including zero FIR and e-FIR under s.173), the representation to the Superintendent...
 - 🇮🇳 [ipc-bns-section-mapper](<skills/ipc-bns-section-mapper>) - Maps sections between India's old and new criminal codes — IPC 1860 ↔ Bharatiya Nyaya Sanhita 2023, CrPC 1973 ↔ Bharatiya Nagarik Suraksha Sanhita 2023, Indian Evidence Act 1872 ↔ Bharatiya Sakshya Adhiniyam 2023 — and tells you which code...
+- 🇮🇳 [quashing-petition-bnss-528](<skills/quashing-petition-bnss-528>) - Audits whether an FIR, charge sheet, summoning order or criminal proceeding can be quashed by the High Court under BNSS s.528 (CrPC s.482 for matters pending on 1 July 2024) or Article 226, maps the case to the Bhajan Lal categories...
 
 ## Civil Procedure & Limitation
 
@@ -73,10 +83,25 @@ claude plugin install indian-legal-skills@awesome-indian-legal-skills
 ## Public Law & RTI
 
 - 🇮🇳 [rti-application-drafter](<skills/rti-application-drafter>) - Drafts Right to Information applications, first appeals and second appeals/complaints under the RTI Act, 2005, and replies to common refusals. Identifies whether the body is a "public authority", turns a vague ask into precise numbered...
+- 🇮🇳 [writ-petition-advisor](<skills/writ-petition-advisor>) - Decides whether a writ petition lies in India and builds the petition skeleton: Article 32 vs 226 vs 227, which of the five writs (habeas corpus, mandamus, certiorari, prohibition, quo warranto), whether the respondent is "State" under...
 
 ## Data Protection & Technology
 
 - 🇮🇳 [dpdp-act-compliance-checker](<skills/dpdp-act-compliance-checker>) - Audits an organisation, product, app or data flow against India's Digital Personal Data Protection Act, 2023 and the DPDP Rules, 2025, and drafts what the audit says is missing — a s.5 consent notice, privacy-notice clauses, a breach...
+
+## Corporate & Commercial
+
+- 🇮🇳 [company-annual-compliance-calendar](<skills/company-annual-compliance-calendar>) - Builds the recurring compliance calendar for an Indian private limited company, small company, OPC, Section 8 company or LLP — board meetings, AGM, AOC-4, MGT-7/7A, ADT-1, DIR-3 KYC, DPT-3, MSME-1, MBP-1/DIR-8, MGT-14, CSR-2, BEN-2, LLP...
+- 🇮🇳 [company-incorporation-india](<skills/company-incorporation-india>) - Chooses the right entity for a new Indian business (private limited, OPC, Section 8, LLP, partnership, proprietorship, foreign subsidiary) and walks it through incorporation on the MCA V3 portal — SPICe+ Part A/B, AGILE-PRO-S, e-MoA/e-AoA...
+
+## Tax & GST
+
+- 🇮🇳 [gst-notice-reply-drafter](<skills/gst-notice-reply-drafter>) - Classifies a GST notice and drafts the reply or appeal under the CGST Act, 2017 and the State GST Acts — ASMT-10 scrutiny replies, DRC-01A/DRC-01 show-cause replies (preliminary objections on limitation, jurisdiction, cross-empowerment and...
+- 🇮🇳 [income-tax-act-2025-section-mapper](<skills/income-tax-act-2025-section-mapper>) - Maps sections between the repealed Income-tax Act, 1961 and the Income-tax Act, 2025 (in force 1 April 2026, 536 sections, "tax year" instead of previous/assessment year, TDS consolidated into ss.392–393, TCS in s.394, Chapter VI-A...
+
+## Employment & Labour
+
+- 🇮🇳 [labour-codes-compliance-checker](<skills/labour-codes-compliance-checker>) - Audits an Indian employer (or checks an employee's entitlements) against the four Labour Codes in force since 21 November 2025 — Code on Wages 2019, Industrial Relations Code 2020, Code on Social Security 2020, OSH Code 2020 — with the...
 
 ## Legal Drafting
 
@@ -87,6 +112,21 @@ claude plugin install indian-legal-skills@awesome-indian-legal-skills
 - 🇮🇳 [indian-case-citation-verifier](<skills/indian-case-citation-verifier>) - Checks every Indian case citation, statute reference and quotation in a draft before it goes into a filing, opinion or article — does the case exist, is the citation in the right form (INSC and High Court neutral citations, SCC, AIR, SCR...
 <!-- INDEX_END -->
 
+## What changed recently
+
+Indian law moved a lot in 2024–26, and most older legal-AI tools still cite the repealed provisions. The skills here track these; verify the live status before relying on any of them.
+
+| In force | Change | Skills that track it | Verify |
+|---|---|---|---|
+| 1 Jul 2024 | **BNS, BNSS, BSA** replace the IPC, CrPC and Evidence Act; e-FIR, zero FIR, s.479 undertrial release, s.63 BSA electronic-record certificate | ipc-bns-section-mapper, bail-application-bnss, quashing-petition-bnss-528, fir-and-police-complaint-drafter, cheque-bounce-s138-advisor | [India Code](https://www.indiacode.gov.in/) |
+| 1 Sep 2025 | **Immigration and Foreigners Act 2025** replaces four Acts (Passport (Entry) 1920, Registration of Foreigners 1939, Foreigners 1946, Carriers' Liability 2000); FRRO compounding, biometric registration | — (wanted) | [MHA](https://www.mha.gov.in/) |
+| 22 Sep 2025 | **GST 2.0** rate rationalisation to 5 / 18 / 40% slabs; GST Appellate Tribunal e-filing opened Sept 2025 | gst-notice-reply-drafter | [CBIC](https://www.cbic-gst.gov.in/) |
+| 13 Nov 2025 | **DPDP Rules 2025** notified (G.S.R. 843(E)–846(E)); Board provisions immediate, Consent Manager registration at 12 months, Fiduciary obligations at 18 months (~May 2027) | dpdp-act-compliance-checker, rti-application-drafter (s.8(1)(j) amendment) | [MeitY](https://www.meity.gov.in/) · [e-Gazette](https://egazette.gov.in/) |
+| 21 Nov 2025 | **Four Labour Codes** in force, replacing 29 Acts; Central Rules and Model Standing Orders notified 8 May 2026; State rules rolling out | labour-codes-compliance-checker, legal-notice-drafter-india | [labour.gov.in](https://labour.gov.in/) |
+| 1 Apr 2026 | **Income-tax Act 2025** replaces the 1961 Act (536 sections; "tax year"; TDS/TCS consolidated in ss.392–394); AY 2026-27 still under the old Act | income-tax-act-2025-section-mapper, company-annual-compliance-calendar | [incometaxindia.gov.in](https://incometaxindia.gov.in/) |
+| 2026 | **Supreme Court on AI-fabricated citations**: reliance on non-existent judgments treated as misconduct; NCLT/NCLAT orders set aside; BCI directed to frame disciplinary guidelines (reported Feb–Jul 2026) | indian-case-citation-verifier | [sci.gov.in](https://www.sci.gov.in/) |
+| 27 Aug 2026 | **Mediation Council of India** established under the Mediation Act 2023 (S.O. 4781(E)); s.5 pre-litigation mediation still not notified — Commercial Courts Act s.12A remains the mandatory one | legal-notice-drafter-india, limitation-period-calculator | [e-Gazette](https://egazette.gov.in/) |
+
 ## Resources
 
 Other open projects for Indian law and AI that pair well with these skills. Each has its own licence.
@@ -96,6 +136,9 @@ Other open projects for Indian law and AI that pair well with these skills. Each
 - [rohasnagpal/legal-ai-skills](https://github.com/rohasnagpal/legal-ai-skills) — a full "AI law firm" plugin (Managing Partner, specialist lawyers, India/US/UK jurisdiction counsel, 226 skills) with India-specific skills for RERA, s.138 NI Act, GST, DPDP, SARFAESI, FEMA and more. MIT.
 - [shashionline/indian-law-plugin](https://github.com/shashionline/indian-law-plugin) — the broadest coverage of the lot: 32 agents, 32 commands, 13 skills and ~235 reference protocols across 11 domains (contract, criminal, corporate, labour, property, IP, constitutional, consumer, cyber, RTI, civil procedure), with useful labour formulas, title-chain tables and a mock-court trainer. Read it as a map of tasks, not as law — much of it predates the 2024 criminal codes and the 2021 consumer rules (BNSS bail numbers, the "531-day" COVID figure, pecuniary limits and the RERA Authority/AO split are wrong as of this review), and several cited protocol files do not exist. MIT.
 - [mihirkavi/indian-law-official-sources](https://github.com/mihirkavi/indian-law-official-sources) — official-sources-only research protocol with a 56-entry source registry (access and API status per source, commercial databases and Indian Kanoon excluded), a sandboxed retrieval MCP server that saves originals with SHA-256 and checks quotes verbatim, a source-ledger template, and a Bombay High Court (Nagpur) BNSS s.528 quashing-application drafter that renders .docx. Maharashtra-first; evaluated with pre-registered prompts. MIT.
+- [judicialmind/legal-skills](https://github.com/judicialmind/legal-skills) — 30 general practice skills in SKILL.md form with one `india-legal` skill; that skill still speaks IPC/CrPC, so use it for structure, not for current Indian law. MIT.
+- [KeshariPiyush24/agent-skills](https://github.com/kesharipiyush24/agent-skills) — a single, careful `dpdp-compliance` skill (audit → implement → artefacts) that cites the DPDP Rules by their Gazette numbers (G.S.R. 843(E)–846(E), corrigendum G.S.R. 892(E)). MIT.
+- [attorneynate/legal-skills](https://github.com/attorneynate/legal-skills) — jurisdiction-neutral legal research and drafting skills that run across Claude, Codex, Gemini CLI, Copilot and Cursor; a good model for portability.
 - [lawve-ai/awesome-legal-skills](https://github.com/lawve-ai/awesome-legal-skills) — the global list this one is modelled on. Its India entries: three DPDP skills (the consent-notice skill by Siddhi Kudalkar tracks the notified 2025 Rules most closely; check rule numbering in the others against the Gazette text) and a FEMA/NDI Rules foreign-investment approval assessment. Per-skill licences (AGPL/Apache).
 
 ### Datasets, models and retrieval
@@ -107,7 +150,9 @@ Other open projects for Indian law and AI that pair well with these skills. Each
 
 ### Official sources
 
-- [India Code](https://www.indiacode.gov.in/) — authoritative text of Central and State Acts, with amendment history (`indiacode.nic.in` is the legacy host).
+The full registry of official hosts the skills cite, with access notes, is [`sources/official-sources.json`](sources/official-sources.json).
+
+- [India Code](https://www.indiacode.gov.in/) — authoritative text of Central and State Acts, with amendment history (`indiacode.gov.in` is the legacy host).
 - [e-Gazette of India](https://egazette.gov.in/) — notifications, commencement orders and rules.
 - [Supreme Court of India](https://www.sci.gov.in/judgements/) · [e-SCR](https://scr.sci.gov.in/scrsearch/) · [Verdict Finder](https://verdictfinder.sci.gov.in/) — judgments with neutral citations (`YYYY INSC NNN`); e-SCR and most court portals are CAPTCHA-gated.
 - [eCourts Services](https://services.ecourts.gov.in/) · [NJDG](https://njdg.ecourts.gov.in/) — case status and judicial data for District Courts and High Courts.

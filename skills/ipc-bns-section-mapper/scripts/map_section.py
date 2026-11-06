@@ -90,7 +90,7 @@ def main() -> int:
         print(f"## {res['query']}")
         if not res["hits"]:
             missing += 1
-            print("  not in table — verify on https://www.indiacode.nic.in/ (this is not a finding of 'no equivalent')")
+            print("  not in table — verify on https://www.indiacode.gov.in/ (this is not a finding of 'no equivalent')")
         for r in res["hits"]:
             print("  " + fmt(r))
         print()

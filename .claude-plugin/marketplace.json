@@ -10,7 +10,7 @@
     {
       "name": "indian-legal-skills",
       "source": "./",
-      "description": "All 10 Indian-law skills from Awesome Indian Legal Skills in one plugin.",
+      "description": "All 19 Indian-law skills from Awesome Indian Legal Skills in one plugin.",
       "version": "2026.11.06",
       "author": {
         "name": "Rahul Beniwal",
@@ -55,6 +55,38 @@
       "strict": false
     },
     {
+      "name": "company-annual-compliance-calendar",
+      "source": "./",
+      "description": "Builds the recurring compliance calendar for an Indian private limited company, small company, OPC, Section 8 company or LLP — board meetings, AGM, AOC-4, MGT-7/7A, ADT-1, DIR-3 KYC, DPT-3, MSME-1, MBP-1/DIR-8, MGT-14, CSR-2, BEN-2, LLP Forms 11 and 8 — with a bundled deadline generator, a \"next 60 days\" view and the additional-fee exposure for anything overdue, plus income-tax and GST pointers. Use whenever a user asks \"what ROC filings are due\", \"annual compliance for my Pvt Ltd / LLP\", \"AOC-4 / MGT-7 due date\", \"DIR-3 KYC\", \"DPT-3\", \"MSME-1\", \"when is our AGM due\", \"compliance calendar for FY 2026-27\", \"ROC late fees\", or wants a month-by-month checklist for a company secretary. Not for incorporation-year clocks like INC-20A or Form 3 (route to company-incorporation-india) or for listed-company SEBI LODR compliance.",
+      "version": "2026.11.06",
+      "author": {
+        "name": "Rahul Beniwal",
+        "url": "https://github.com/iambeniwal"
+      },
+      "license": "MIT",
+      "category": "Corporate & Commercial",
+      "skills": [
+        "./skills/company-annual-compliance-calendar"
+      ],
+      "strict": false
+    },
+    {
+      "name": "company-incorporation-india",
+      "source": "./",
+      "description": "Chooses the right entity for a new Indian business (private limited, OPC, Section 8, LLP, partnership, proprietorship, foreign subsidiary) and walks it through incorporation on the MCA V3 portal — SPICe+ Part A/B, AGILE-PRO-S, e-MoA/e-AoA, FiLLiP and the LLP Agreement — then computes the post-incorporation clocks (first board meeting, first auditor and ADT-1, INC-20A commencement, share certificates, Form 3, first AGM) with a bundled calculator. Use whenever a user asks how to register a company or LLP in India, \"company kaise banaye\", \"startup registration\", \"Pvt Ltd vs LLP\", \"SPICe+\", \"DIN/DSC\", \"INC-20A\", \"LLP Form 3 due\", \"what do I do after incorporation\", or wants a DPIIT/Udyam-ready checklist. Not for annual filings after the first year (route to company-annual-compliance-calendar) or for FEMA approval analysis beyond flagging it.",
+      "version": "2026.11.06",
+      "author": {
+        "name": "Rahul Beniwal",
+        "url": "https://github.com/iambeniwal"
+      },
+      "license": "MIT",
+      "category": "Corporate & Commercial",
+      "skills": [
+        "./skills/company-incorporation-india"
+      ],
+      "strict": false
+    },
+    {
       "name": "consumer-complaint-cpa-2019",
       "source": "./",
       "description": "Audits and drafts complaints before the District, State and National Consumer Commissions under the Consumer Protection Act, 2019, including e-Daakhil filing. Runs the \"consumer\" test first, picks the forum from the consideration paid (not the compensation claimed), fixes territorial jurisdiction (including where the complainant lives or works), computes the two-year limitation, maps provable relief under s.39, checks parallel forums (RERA, arbitration, ombudsman) and produces the complaint with verification, affidavit and document list. Use whenever a user mentions a consumer complaint, consumer court/forum/commission, e-Daakhil, \"deficiency in service\", \"defective product\", \"refund nahi mil raha\", a builder/airline/insurer/bank/hospital/ e-commerce seller who will not refund or repair, misleading ads, or an appeal from a consumer commission order. Not for business-to-business purchases for commercial purposes, for employment grievances, or for advocates' services — say so and route elsewhere.",
@@ -83,6 +115,70 @@
       "category": "Data Protection & Technology",
       "skills": [
         "./skills/dpdp-act-compliance-checker"
+      ],
+      "strict": false
+    },
+    {
+      "name": "fir-and-police-complaint-drafter",
+      "source": "./",
+      "description": "Gets a crime registered and documented under the BNSS, 2023 and works the remedies when the police will not act: drafts the written complaint for an FIR (including zero FIR and e-FIR under s.173), the representation to the Superintendent of Police under s.173(4), the application to the Magistrate under s.175(3) with its affidavit, and a private complaint under s.223 as the fallback; routes non-cognizable matters (s.174), cyber fraud (cybercrime.gov.in / 1930), domestic violence and workplace harassment to the right track. Use whenever a user says \"FIR\", \"police complaint\", \"FIR nahi likh rahe\", \"police refused to register\", \"zero FIR\", \"online fraud report\", \"how do I file a complaint against\", \"I was cheated/assaulted/threatened/robbed\", or needs the first documented step after an offence. Not for the accused's side — route bail and quashing to the bail-application-bnss and quashing-petition-bnss-528 skills.",
+      "version": "2026.11.06",
+      "author": {
+        "name": "Rahul Beniwal",
+        "url": "https://github.com/iambeniwal"
+      },
+      "license": "MIT",
+      "category": "Criminal Law",
+      "skills": [
+        "./skills/fir-and-police-complaint-drafter"
+      ],
+      "strict": false
+    },
+    {
+      "name": "gst-notice-reply-drafter",
+      "source": "./",
+      "description": "Classifies a GST notice and drafts the reply or appeal under the CGST Act, 2017 and the State GST Acts — ASMT-10 scrutiny replies, DRC-01A/DRC-01 show-cause replies (preliminary objections on limitation, jurisdiction, cross-empowerment and a vague SCN; merits head by head; GSTR-2A/2B vs 3B ITC reconciliation; computation and penalty), s.161 rectification, APL-01 first appeals and s.112 GSTAT appeals with pre-deposit computed on the disputed tax, plus the s.73/s.74/s.74A limitation back-computed from the annual-return due date with a bundled calculator. Use whenever a user mentions a GST notice, \"DRC-01\", \"ASMT-10\", \"show cause notice GST\", \"GST demand order\", \"ITC mismatch 2A 3B\", \"section 73 / 74 / 74A\", \"GST appeal\", \"GSTAT\", \"pre-deposit\", \"GST notice ka reply\", or a summons under s.70. Not for GST registration, return filing, refunds (except an erroneous-refund demand) or customs — say so and route elsewhere; income-tax sections go to income-tax-act-2025-section-mapper.",
+      "version": "2026.11.06",
+      "author": {
+        "name": "Rahul Beniwal",
+        "url": "https://github.com/iambeniwal"
+      },
+      "license": "MIT",
+      "category": "Tax & GST",
+      "skills": [
+        "./skills/gst-notice-reply-drafter"
+      ],
+      "strict": false
+    },
+    {
+      "name": "hinglish-legal-intake-router",
+      "source": "./",
+      "description": "The front door for a lay user who describes a legal problem in Hindi, Hinglish (romanised Hindi) or plain English — \"police FIR nahi likh rahi\", \"cheque bounce ho gaya kya karu\", \"builder possession nahi de raha\", \"company ne salary nahi di\", \"patni ne 498A laga diya\", \"RTI daalna hai\", \"mera data leak ho gaya\", \"GST ka notice aaya hai\", \"company kholni hai\". Replies in the user's own language and script, checks for danger and running deadlines first, asks at most three questions, names the legal issue, and routes to the right skill in this library by exact name — or says plainly that no skill covers it and points to free legal aid (NALSA / DLSA, Tele-Law, cyber-crime helpline 1930). Use whenever a message is in Hindi or Hinglish, or is an untrained person's narrative of a dispute with no legal framing, even if a specific skill might also match. Not for drafting or analysis itself — it hands over.",
+      "version": "2026.11.06",
+      "author": {
+        "name": "Rahul Beniwal",
+        "url": "https://github.com/iambeniwal"
+      },
+      "license": "MIT",
+      "category": "Intake & Triage",
+      "skills": [
+        "./skills/hinglish-legal-intake-router"
+      ],
+      "strict": false
+    },
+    {
+      "name": "income-tax-act-2025-section-mapper",
+      "source": "./",
+      "description": "Maps sections between the repealed Income-tax Act, 1961 and the Income-tax Act, 2025 (in force 1 April 2026, 536 sections, \"tax year\" instead of previous/assessment year, TDS consolidated into ss.392–393, TCS in s.394, Chapter VI-A deductions renumbered 122–154), and decides which Act governs a return, notice, assessment or appeal from the tax year or assessment year involved. Use whenever a user quotes an income-tax section and needs the new or old equivalent, asks \"what is 80C in the new Act\", \"new section for 87A / 115BAC / 139 / 194C / 234B\", \"80C ka naya section\", \"does the 1961 Act still apply to my AY 2025-26 notice\", needs a tax notice, computation, Form 16 or opinion checked for mixed old/new numbering, or asks which form replaced Form 16 / 26AS. Not a tax computation or advisory skill — it maps provisions and tells the agent where to verify.",
+      "version": "2026.11.06",
+      "author": {
+        "name": "Rahul Beniwal",
+        "url": "https://github.com/iambeniwal"
+      },
+      "license": "MIT",
+      "category": "Tax & GST",
+      "skills": [
+        "./skills/income-tax-act-2025-section-mapper"
       ],
       "strict": false
     },
@@ -119,6 +215,22 @@
       "strict": false
     },
     {
+      "name": "labour-codes-compliance-checker",
+      "source": "./",
+      "description": "Audits an Indian employer (or checks an employee's entitlements) against the four Labour Codes in force since 21 November 2025 — Code on Wages 2019, Industrial Relations Code 2020, Code on Social Security 2020, OSH Code 2020 — with the Central Rules of May 2026 and the State-rules transition. Applies the uniform \"wages\" definition (50% rule), computes gratuity, retrenchment compensation, leave encashment and bonus with a bundled calculator, checks hours, overtime, appointment letters, PF/ESIC, standing orders, fixed-term employment and retrenchment thresholds, and grades gaps. Use whenever a user mentions labour codes, \"new labour law\", wage code, gratuity, PF/ESI, retrenchment, lay-off, termination of a workman, fixed-term employee, bonus, overtime, working hours, \"naukri se nikal diya\", \"gratuity kitni milegi\", standing orders, or HR compliance for an Indian establishment. Facts before 21 November 2025 are governed by the repealed Acts; POSH is elsewhere.",
+      "version": "2026.11.06",
+      "author": {
+        "name": "Rahul Beniwal",
+        "url": "https://github.com/iambeniwal"
+      },
+      "license": "MIT",
+      "category": "Employment & Labour",
+      "skills": [
+        "./skills/labour-codes-compliance-checker"
+      ],
+      "strict": false
+    },
+    {
       "name": "legal-notice-drafter-india",
       "source": "./",
       "description": "Drafts and audits legal notices and replies under Indian practice — demand notices, breach and cease-and-desist letters, and the statutory notices with mandatory periods and contents: s.80 CPC (two months before suing the Government), s.106 Transfer of Property Act (notice to quit), s.21 Arbitration Act (invoking arbitration), s.12A Commercial Courts Act (pre-institution mediation), MSMED Act s.18 (Samadhaan), IBC s.8 (operational creditor demand), SARFAESI s.13(2), and employment show-cause/termination notices. Classifies the notice, checks who may sign, states the breach and a quantified demand with a deadline, plans service, and tells the user what happens next. Use whenever a user asks for a \"legal notice\", \"notice bhejna hai\", \"reply to legal notice\", \"demand letter\", \"cease and desist\", \"notice before suit\", \"notice to tenant\", \"notice to government department\", or asks whether a notice is required before suing. Routes cheque-bounce notices to cheque-bounce-s138-advisor rather than redrafting them.",
@@ -151,6 +263,22 @@
       "strict": false
     },
     {
+      "name": "quashing-petition-bnss-528",
+      "source": "./",
+      "description": "Audits whether an FIR, charge sheet, summoning order or criminal proceeding can be quashed by the High Court under BNSS s.528 (CrPC s.482 for matters pending on 1 July 2024) or Article 226, maps the case to the Bhajan Lal categories, separates the settlement track from the merits track, and drafts the petition with synopsis, list of dates, grounds, interim prayer and affidavit. Use whenever a user mentions quashing, \"quash the FIR\", \"482 petition\", \"528 application\", \"FIR cancel karwana hai\", \"false FIR\", \"498A quashing\", a civil dispute given a criminal colour, a compromise/settlement in a non-compoundable case, or asks whether to go to the High Court against a charge sheet or summons. Routes bail to bail-application-bnss and discharge/compounding to the trial court when those fit better. Not for appeals against conviction or revision.",
+      "version": "2026.11.06",
+      "author": {
+        "name": "Rahul Beniwal",
+        "url": "https://github.com/iambeniwal"
+      },
+      "license": "MIT",
+      "category": "Criminal Law",
+      "skills": [
+        "./skills/quashing-petition-bnss-528"
+      ],
+      "strict": false
+    },
+    {
       "name": "rera-homebuyer-complaint",
       "source": "./",
       "description": "Audits and drafts a homebuyer (allottee) complaint under the Real Estate (Regulation and Development) Act, 2016 for delayed possession, refund with interest, defects, false promises or unregistered projects — and the promoter's reply. Picks the right forum (RERA Authority vs Adjudicating Officer vs consumer commission vs NCLT), forces the refund-or-stay election under s.18, computes months of delay and interest with the bundled calculator at the State's prescribed rate, and produces a State-portal-ready complaint with documents list. Use whenever a user mentions a builder, developer, flat/apartment/plot booking, \"possession delayed\", \"builder refund\", \"RERA complaint\", \"RERA mein case\", \"OC nahi mila\", \"builder paisa nahi de raha\", \"defect in flat\", or wants to reply to a RERA complaint as a promoter. Not for title disputes, landlord–tenant matters, or commercial lease disputes — say so and route elsewhere.",
@@ -179,6 +307,22 @@
       "category": "Public Law & RTI",
       "skills": [
         "./skills/rti-application-drafter"
+      ],
+      "strict": false
+    },
+    {
+      "name": "writ-petition-advisor",
+      "source": "./",
+      "description": "Decides whether a writ petition lies in India and builds the petition skeleton: Article 32 vs 226 vs 227, which of the five writs (habeas corpus, mandamus, certiorari, prohibition, quo warranto), whether the respondent is \"State\" under Article 12 or a private body performing a public duty, territorial jurisdiction under Article 226(2), the alternative-remedy rule and its exceptions, tribunal routes, laches, locus and PIL filters, interim relief and the SLP route. Produces a maintainability memo, a decision table, a synopsis/list of dates and lettered grounds tied to decisions — or, when a writ is the wrong tool, the statutory remedy and its deadline. Use whenever a user mentions a writ, Article 226/32/227, \"high court mein petition\", mandamus, certiorari, habeas corpus, quo warranto, PIL, challenging a government order/notification/tender/demand, an authority not acting, illegal detention, or asks \"can I go to the High Court directly\". Not for statutory appeals or criminal quashing (BNSS s.528).",
+      "version": "2026.11.06",
+      "author": {
+        "name": "Rahul Beniwal",
+        "url": "https://github.com/iambeniwal"
+      },
+      "license": "MIT",
+      "category": "Public Law & RTI",
+      "skills": [
+        "./skills/writ-petition-advisor"
       ],
       "strict": false
     }

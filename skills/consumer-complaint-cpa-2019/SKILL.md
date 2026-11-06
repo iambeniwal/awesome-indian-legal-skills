@@ -37,7 +37,7 @@ Indian law only. Identify the State/UT and district: the Commission's address, i
 
 Check and record the date checked:
 
-- Act text, especially ss.2(7), 2(10), 2(11), 2(16), 2(46), 2(47), 34, 35, 37, 38, 39, 41, 51, 58, 67, 69, 71, 72, 82–87, 89, 100: [India Code — Consumer Protection Act, 2019](https://www.indiacode.nic.in/).
+- Act text, especially ss.2(7), 2(10), 2(11), 2(16), 2(46), 2(47), 34, 35, 37, 38, 39, 41, 51, 58, 67, 69, 71, 72, 82–87, 89, 100: [India Code — Consumer Protection Act, 2019](https://www.indiacode.gov.in/).
 - **Pecuniary limits**: the Consumer Protection (Jurisdiction of the District Commission, the State Commission and the National Commission) Rules, 2021 — District up to ₹50 lakh; State above ₹50 lakh up to ₹2 crore; National above ₹2 crore — measured by the **value of the goods or services paid as consideration** (s.34(1), s.47(1), s.58(1)), not by the compensation claimed. The Central Government can revise these by rule; confirm on [e-Gazette](https://egazette.gov.in/) or the [Department of Consumer Affairs](https://consumeraffairs.nic.in/) before stating them.
 - **Fees**: the Consumer Protection (Consumer Disputes Redressal Commissions) Rules, 2020, Schedule — nil for claims up to ₹5 lakh, then slabs by value. Read the Schedule as in force; do not quote slab amounts from memory.
 - Filing: [e-Daakhil](https://edaakhil.nic.in/) (document formats, fee payment, which Commissions accept e-filing); [confonet.nic.in](https://confonet.nic.in/) for case status.

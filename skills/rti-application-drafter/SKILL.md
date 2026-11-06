@@ -39,7 +39,7 @@ State and Central tracks differ: Central ministries, PSUs and bodies under the U
 
 Check and record the date checked:
 
-- Act text, especially ss.2(f), 2(h), 2(j), 6, 7, 8, 9, 10, 11, 18, 19, 20, 24 and the Second Schedule: [India Code — RTI Act, 2005](https://www.indiacode.nic.in/).
+- Act text, especially ss.2(f), 2(h), 2(j), 6, 7, 8, 9, 10, 11, 18, 19, 20, 24 and the Second Schedule: [India Code — RTI Act, 2005](https://www.indiacode.gov.in/).
 - **s.8(1)(j) has been amended by s.44(3) of the Digital Personal Data Protection Act, 2023** to read simply "information which relates to personal information", dropping the public-interest and "larger public interest" qualifiers. This is a significant narrowing for requests about officials' personal information. Check on [e-Gazette](https://egazette.gov.in/) whether s.44(3) has been brought into force (the DPDP Act commences in phases) before telling a user that the old *Girish Ramchandra Deshpande* balancing test still applies.
 - Central fee and copying charges: RTI Rules, 2012 (₹10 application; ₹2 per A4/A3 page; actual cost for larger copies; first hour of inspection free, ₹5 per further 15 minutes; no fee for persons below the poverty line, s.7(5)). State fees vary — read the State's rules; some States charge more and accept different instruments.
 - The 2019 Amendment: term, salary and conditions of Information Commissioners are now prescribed by the Central Government (RTI Rules, 2019 fixed a three-year term). Relevant only if the user is litigating the Commission's independence.

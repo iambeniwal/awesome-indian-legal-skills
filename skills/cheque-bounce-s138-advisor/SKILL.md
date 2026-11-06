@@ -35,7 +35,7 @@ Indian law only. Identify the State/UT: court fees, process fees, local Criminal
 
 Check these before stating a section, period or figure as current, and record the date checked:
 
-- Sections 138–148 NI Act, 1881 (as amended 2002, 2015, 2018): [India Code](https://www.indiacode.nic.in/)
+- Sections 138–148 NI Act, 1881 (as amended 2002, 2015, 2018): [India Code](https://www.indiacode.gov.in/)
 - Procedure is now the **BNSS, 2023** (in force 1 July 2024): complaint under s.223 (was CrPC s.200), summons s.227, summary trial s.283–288. BNSS s.223 adds a pre-cognizance hearing of the accused — check the current text and local practice.
 - Controlling decisions: [sci.gov.in](https://www.sci.gov.in/) by neutral citation. The most-cited ones are summarised in [references/case-law.md](references/case-law.md); read it before writing the analysis.
 
