@@ -1,5 +1,8 @@
 <p align="center">
-  <h1 align="center">⚖️ Awesome Indian Legal Skills</h1>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/cover-dark.png">
+    <img src="assets/cover-light.png" alt="Awesome Indian Legal Skills — Agent Skills for Indian law: open-source SKILL.md workflows for BNS/BNSS/BSA, cheque bounce, bail, RTI, consumer, RERA, limitation, DPDP and citation checking" width="100%">
+  </picture>
 </p>
 
 <p align="center">
