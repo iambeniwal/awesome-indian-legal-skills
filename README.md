@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/cover-dark.png">
-    <img src="assets/cover-light.png" alt="Awesome Indian Legal Skills — Agent Skills for Indian law: open-source SKILL.md workflows for BNS/BNSS/BSA, cheque bounce, bail, RTI, consumer, RERA, limitation, DPDP and citation checking" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/cover-dark-v2.png">
+    <img src="assets/cover-light-v2.png" alt="Awesome Indian Legal Skills — Agent Skills for Indian law: open-source SKILL.md workflows for BNS/BNSS/BSA, cheque bounce, bail, RTI, consumer, RERA, limitation, DPDP and citation checking" width="100%">
   </picture>
 </p>
 
