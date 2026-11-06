@@ -4,38 +4,35 @@
 <meta charset="utf-8">
 <title>Awesome Indian Legal Skills — cover</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
+  /* Designed at 1600 × 600 but READ at ~900 px wide on GitHub (≈56 %). Keep every text ≥ 28 px here. */
   :root {
-    --bg: #faf7f2; --ink: #15171c; --muted: #5c6270; --rule: #e3ded5;
-    --pill: #ffffff; --pill-border: #d9d3c8; --saffron: #e8792b; --green: #1f8a4c; --navy: #1d3b8a;
+    --bg: #faf7f2; --ink: #15171c; --muted: #4f5563; --rule: #e3ded5;
+    --saffron: #e8792b; --green: #1f8a4c; --navy: #1d3b8a; --wm: rgba(21,23,28,0.06);
   }
   .dark {
-    --bg: #0e1116; --ink: #f3efe7; --muted: #9aa1ad; --rule: #262b33;
-    --pill: #161b22; --pill-border: #2b323c; --saffron: #ff9548; --green: #3fc072; --navy: #7aa2ff;
+    --bg: #0e1116; --ink: #f3efe7; --muted: #aab1bd; --rule: #262b33;
+    --saffron: #ff9548; --green: #3fc072; --navy: #8ab0ff; --wm: rgba(243,239,231,0.05);
   }
   * { box-sizing: border-box; margin: 0; }
-  html, body { width: 1600px; height: 640px; overflow: hidden; }
+  html, body { width: 1600px; height: 600px; overflow: hidden; }
   body { background: var(--bg); color: var(--ink); font-family: Inter, -apple-system, "Helvetica Neue", Arial, sans-serif; position: relative; }
-  .tricolour { position: absolute; left: 0; right: 0; top: 0; height: 6px; display: flex; }
+  .tricolour { position: absolute; left: 0; right: 0; top: 0; height: 8px; display: flex; }
   .tricolour span { flex: 1; }
   .tricolour .s { background: var(--saffron); } .tricolour .w { background: var(--rule); } .tricolour .g { background: var(--green); }
-  .wrap { position: absolute; inset: 6px 0 0 0; padding: 64px 96px 52px; display: flex; flex-direction: column; justify-content: space-between; }
-  .eyebrow { font-size: 15px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--muted); font-weight: 600; display: flex; align-items: center; gap: 14px; }
-  .eyebrow .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--navy); display: inline-block; }
-  h1 { font-family: Fraunces, "Iowan Old Style", Georgia, serif; font-weight: 700; font-size: 88px; line-height: 0.98; letter-spacing: -0.02em; max-width: 1050px; margin-top: 22px; font-variation-settings: "opsz" 144; }
+  .nyaya { position: absolute; right: 70px; top: 10px; font-family: "Kohinoor Devanagari", "Devanagari Sangam MN", "Noto Sans Devanagari", sans-serif; font-size: 360px; line-height: 1; font-weight: 700; color: var(--wm); letter-spacing: -0.02em; }
+  .wrap { position: absolute; inset: 8px 0 0 0; padding: 62px 96px 60px; display: flex; flex-direction: column; justify-content: space-between; }
+  .eyebrow { font-size: 24px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--muted); font-weight: 600; display: flex; align-items: center; gap: 16px; }
+  .eyebrow .dot { width: 12px; height: 12px; border-radius: 50%; background: var(--navy); display: inline-block; }
+  h1 { font-family: Fraunces, "Iowan Old Style", Georgia, serif; font-weight: 700; font-size: 124px; line-height: 0.96; letter-spacing: -0.025em; margin-top: 26px; font-variation-settings: "opsz" 144; }
   h1 em { font-style: italic; font-weight: 600; color: var(--navy); }
-  .sub { margin-top: 24px; font-size: 24px; line-height: 1.4; color: var(--muted); max-width: 980px; font-weight: 400; }
+  .sub { margin-top: 30px; font-size: 34px; line-height: 1.32; color: var(--muted); max-width: 1180px; font-weight: 400; }
   .sub b { color: var(--ink); font-weight: 600; }
-  .pills { display: flex; flex-wrap: wrap; gap: 10px; max-width: 1120px; margin-top: 30px; }
-  .pill { font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 15.5px; padding: 8px 14px; border-radius: 999px; background: var(--pill); border: 1px solid var(--pill-border); color: var(--ink); }
-  .pill.more { color: var(--muted); border-style: dashed; }
-  .foot { display: flex; justify-content: space-between; align-items: flex-end; font-size: 15px; color: var(--muted); border-top: 1px solid var(--rule); padding-top: 18px; margin-top: 28px; }
-  .foot b { color: var(--ink); font-weight: 600; }
-  .nyaya { position: absolute; right: 84px; top: 36px; font-family: "Kohinoor Devanagari", "Devanagari Sangam MN", "Noto Sans Devanagari", sans-serif; font-size: 300px; line-height: 1; font-weight: 700; color: var(--ink); opacity: 0.055; letter-spacing: -0.02em; user-select: none; }
-  .mark { position: absolute; right: 96px; bottom: 112px; display: flex; flex-direction: column; align-items: flex-end; gap: 6px; }
-  .mark .kicker { font-size: 13px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
-  .mark .hi { font-family: "Kohinoor Devanagari", "Devanagari Sangam MN", "Noto Sans Devanagari", sans-serif; font-size: 44px; font-weight: 600; color: var(--ink); line-height: 1.1; }
+  .facts { display: flex; align-items: center; gap: 22px; font-size: 28px; color: var(--muted); font-weight: 500; margin-top: 10px; }
+  .facts b { color: var(--ink); font-weight: 600; }
+  .facts .sep { width: 6px; height: 6px; border-radius: 50%; background: var(--rule); display: inline-block; }
+  .mark { position: absolute; right: 96px; bottom: 56px; font-family: "Kohinoor Devanagari", "Devanagari Sangam MN", "Noto Sans Devanagari", sans-serif; font-size: 54px; font-weight: 600; color: var(--ink); line-height: 1.1; }
 </style>
 </head>
 <body>
@@ -43,26 +40,12 @@
   <div class="nyaya" aria-hidden="true">न्याय</div>
   <div class="wrap">
     <div>
-      <div class="eyebrow"><span class="dot"></span> Awesome · Indian Legal Skills</div>
+      <div class="eyebrow"><span class="dot"></span> Awesome Indian Legal Skills</div>
       <h1>Agent Skills for<br><em>Indian law.</em></h1>
-      <p class="sub">Open-source <b>SKILL.md</b> workflows that teach Claude Code, Codex and any compatible agent to work like an Indian practitioner — <b>BNS · BNSS · BSA</b>, cheque bounce, bail, RTI, consumer, RERA, limitation, DPDP, citation checking.</p>
-      <div class="pills">
-        <span class="pill">cheque-bounce-s138-advisor</span>
-        <span class="pill">ipc-bns-section-mapper</span>
-        <span class="pill">bail-application-bnss</span>
-        <span class="pill">limitation-period-calculator</span>
-        <span class="pill">rti-application-drafter</span>
-        <span class="pill">consumer-complaint-cpa-2019</span>
-        <span class="pill">rera-homebuyer-complaint</span>
-        <span class="pill">dpdp-act-compliance-checker</span>
-        <span class="pill">indian-case-citation-verifier</span>
-        <span class="pill more">+ yours</span>
-      </div>
+      <p class="sub">Open-source <b>SKILL.md</b> workflows for Claude Code, Codex and any compatible agent — <b>BNS · BNSS · BSA</b>, cheque bounce, bail, RTI, consumer, RERA, limitation, DPDP.</p>
     </div>
-    <div class="foot">
-      <div><b>github.com/iambeniwal/awesome-indian-legal-skills</b> &nbsp;·&nbsp; skills MIT &nbsp;·&nbsp; list CC BY 4.0 &nbsp;·&nbsp; not legal advice</div>
-    </div>
+    <div class="facts"><b>10 skills</b><span class="sep"></span>MIT<span class="sep"></span>Verified against official sources<span class="sep"></span>Not legal advice</div>
   </div>
-  <div class="mark"><span class="kicker">Verify on India Code</span><span class="hi">सत्यमेव जयते</span></div>
+  <div class="mark">सत्यमेव जयते</div>
 </body>
 </html>
