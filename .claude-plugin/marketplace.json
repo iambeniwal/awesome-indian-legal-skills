@@ -1,0 +1,186 @@
+{
+  "name": "awesome-indian-legal-skills",
+  "version": "1.0.0",
+  "description": "Curated agent skills for Indian law",
+  "owner": {
+    "name": "Rahul Beniwal",
+    "url": "https://github.com/iambeniwal"
+  },
+  "plugins": [
+    {
+      "name": "indian-legal-skills",
+      "source": "./",
+      "description": "All 10 Indian-law skills from Awesome Indian Legal Skills in one plugin.",
+      "version": "2026.11.06",
+      "author": {
+        "name": "Rahul Beniwal",
+        "url": "https://github.com/iambeniwal"
+      },
+      "license": "MIT",
+      "skills": [
+        "./skills/"
+      ],
+      "strict": false
+    },
+    {
+      "name": "bail-application-bnss",
+      "source": "./",
+      "description": "Audits a bail matter under the BNSS, 2023 and drafts the application: regular bail (s.480 Magistrate / s.483 Sessions and High Court), anticipatory bail (s.482), default bail when the charge sheet is late (s.187(3)), undertrial release at half or one-third of the maximum sentence (s.479), and bailable-offence bail (s.478). Maps CrPC 436/436A/437/438/439/167/482 to the BNSS, routes pre-1 July 2024 matters to the CrPC, and computes the 60/90-day and s.479 dates with a bundled calculator. Use whenever a user mentions bail, \"zamanat\", anticipatory bail, \"police arrest karne wali hai\", custody, remand, \"charge sheet 90 din me nahi aayi\", undertrial release, Arnesh Kumar or Satender Antil, or wants a bail application drafted, checked or opposed. For NDPS, UAPA, PMLA, POCSO or SC/ST Act matters it applies the stricter statutory test. Not for quashing (s.528) or suspension of sentence pending appeal (s.430) — say so and route.",
+      "version": "2026.11.06",
+      "author": {
+        "name": "Rahul Beniwal",
+        "url": "https://github.com/iambeniwal"
+      },
+      "license": "MIT",
+      "category": "Criminal Law",
+      "skills": [
+        "./skills/bail-application-bnss"
+      ],
+      "strict": false
+    },
+    {
+      "name": "cheque-bounce-s138-advisor",
+      "source": "./",
+      "description": "Audits a dishonoured-cheque matter under section 138 of the Negotiable Instruments Act, 1881 and drafts the statutory demand notice, the complaint, or the reply. Computes every deadline in the chain (presentment, 30-day notice, 15-day payment window, one-month complaint limitation), fixes territorial jurisdiction under s.142(2), checks s.141 company-officer liability, and flags defects before anything is sent or filed. Use whenever a user mentions a bounced or dishonoured cheque, \"cheque bounce\", \"cheque return memo\", \"insufficient funds\", \"138 notice\", \"NI Act case\", \"cheque bounce ho gaya\", or wants to reply to a s.138 notice they received. Not for cheque fraud/forgery prosecutions under the BNS or for civil recovery suits alone — route those elsewhere and say so.",
+      "version": "2026.11.06",
+      "author": {
+        "name": "Rahul Beniwal",
+        "url": "https://github.com/iambeniwal"
+      },
+      "license": "MIT",
+      "category": "Criminal Law",
+      "skills": [
+        "./skills/cheque-bounce-s138-advisor"
+      ],
+      "strict": false
+    },
+    {
+      "name": "consumer-complaint-cpa-2019",
+      "source": "./",
+      "description": "Audits and drafts complaints before the District, State and National Consumer Commissions under the Consumer Protection Act, 2019, including e-Daakhil filing. Runs the \"consumer\" test first, picks the forum from the consideration paid (not the compensation claimed), fixes territorial jurisdiction (including where the complainant lives or works), computes the two-year limitation, maps provable relief under s.39, checks parallel forums (RERA, arbitration, ombudsman) and produces the complaint with verification, affidavit and document list. Use whenever a user mentions a consumer complaint, consumer court/forum/commission, e-Daakhil, \"deficiency in service\", \"defective product\", \"refund nahi mil raha\", a builder/airline/insurer/bank/hospital/ e-commerce seller who will not refund or repair, misleading ads, or an appeal from a consumer commission order. Not for business-to-business purchases for commercial purposes, for employment grievances, or for advocates' services — say so and route elsewhere.",
+      "version": "2026.11.06",
+      "author": {
+        "name": "Rahul Beniwal",
+        "url": "https://github.com/iambeniwal"
+      },
+      "license": "MIT",
+      "category": "Consumer Protection",
+      "skills": [
+        "./skills/consumer-complaint-cpa-2019"
+      ],
+      "strict": false
+    },
+    {
+      "name": "dpdp-act-compliance-checker",
+      "source": "./",
+      "description": "Audits an organisation, product, app or data flow against India's Digital Personal Data Protection Act, 2023 and the DPDP Rules, 2025, and drafts what the audit says is missing — a s.5 consent notice, privacy-notice clauses, a breach notification to the Data Protection Board and Data Principals, a processor clause, or a gap register with owners and deadlines tied to the phased commencement dates. Use whenever a user mentions DPDP, DPDPA, \"Digital Personal Data Protection\", the Data Protection Board of India, Data Fiduciary / Data Principal / Significant Data Fiduciary, Consent Manager, \"India privacy law\", \"is our app DPDP compliant\", \"DPDP ke liye kya karna hai\", wants a privacy policy or consent flow for Indian users, or asks how GDPR compliance maps to India. Not for the IT Act SPDI Rules alone, sector-only rules (RBI/SEBI/IRDAI) or GDPR questions with no India nexus — say so and route elsewhere.",
+      "version": "2026.11.06",
+      "author": {
+        "name": "Rahul Beniwal",
+        "url": "https://github.com/iambeniwal"
+      },
+      "license": "MIT",
+      "category": "Data Protection & Technology",
+      "skills": [
+        "./skills/dpdp-act-compliance-checker"
+      ],
+      "strict": false
+    },
+    {
+      "name": "indian-case-citation-verifier",
+      "source": "./",
+      "description": "Checks every Indian case citation, statute reference and quotation in a draft before it goes into a filing, opinion or article — does the case exist, is the citation in the right form (INSC and High Court neutral citations, SCC, AIR, SCR, SCC OnLine), does it hold what is claimed, is the quote verbatim, and is the statute section current (BNS/BNSS/BSA since 1 July 2024). Built for the AI-fabricated-citation problem that Indian courts have warned advocates about. Use whenever a user asks to verify, check, validate or \"sanity check\" citations or authorities, asks \"is this a real case\", \"did the Supreme Court actually say this\", wants a written submission, synopsis, legal opinion, article or AI-generated research checked before filing, or pastes a list of cases and asks which ones are genuine. Also use proactively before presenting any Indian case law you have generated yourself. Not a case-law research tool — it verifies what is already cited; it does not find new authorities.",
+      "version": "2026.11.06",
+      "author": {
+        "name": "Rahul Beniwal",
+        "url": "https://github.com/iambeniwal"
+      },
+      "license": "MIT",
+      "category": "Legal Research & Citations",
+      "skills": [
+        "./skills/indian-case-citation-verifier"
+      ],
+      "strict": false
+    },
+    {
+      "name": "ipc-bns-section-mapper",
+      "source": "./",
+      "description": "Maps sections between India's old and new criminal codes — IPC 1860 ↔ Bharatiya Nyaya Sanhita 2023, CrPC 1973 ↔ Bharatiya Nagarik Suraksha Sanhita 2023, Indian Evidence Act 1872 ↔ Bharatiya Sakshya Adhiniyam 2023 — and tells you which code governs a given matter based on the date of the offence and the date proceedings began (the 1 July 2024 transition and the BNSS s.531 savings clause). Use whenever a user quotes an IPC/CrPC/Evidence Act section and needs the BNS/BNSS/BSA equivalent or vice versa, asks \"what is 420 IPC in BNS\", \"new section for 498A\", \"302 ka naya section\", \"is this FIR under IPC or BNS\", \"which code applies to an offence from 2023\", or needs an FIR, charge sheet, bail application or legal notice checked for mixed old/new section numbers. Not a substitute for reading the section text — it tells the agent where to verify.",
+      "version": "2026.11.06",
+      "author": {
+        "name": "Rahul Beniwal",
+        "url": "https://github.com/iambeniwal"
+      },
+      "license": "MIT",
+      "category": "Criminal Law",
+      "skills": [
+        "./skills/ipc-bns-section-mapper"
+      ],
+      "strict": false
+    },
+    {
+      "name": "legal-notice-drafter-india",
+      "source": "./",
+      "description": "Drafts and audits legal notices and replies under Indian practice — demand notices, breach and cease-and-desist letters, and the statutory notices with mandatory periods and contents: s.80 CPC (two months before suing the Government), s.106 Transfer of Property Act (notice to quit), s.21 Arbitration Act (invoking arbitration), s.12A Commercial Courts Act (pre-institution mediation), MSMED Act s.18 (Samadhaan), IBC s.8 (operational creditor demand), SARFAESI s.13(2), and employment show-cause/termination notices. Classifies the notice, checks who may sign, states the breach and a quantified demand with a deadline, plans service, and tells the user what happens next. Use whenever a user asks for a \"legal notice\", \"notice bhejna hai\", \"reply to legal notice\", \"demand letter\", \"cease and desist\", \"notice before suit\", \"notice to tenant\", \"notice to government department\", or asks whether a notice is required before suing. Routes cheque-bounce notices to cheque-bounce-s138-advisor rather than redrafting them.",
+      "version": "2026.11.06",
+      "author": {
+        "name": "Rahul Beniwal",
+        "url": "https://github.com/iambeniwal"
+      },
+      "license": "MIT",
+      "category": "Legal Drafting",
+      "skills": [
+        "./skills/legal-notice-drafter-india"
+      ],
+      "strict": false
+    },
+    {
+      "name": "limitation-period-calculator",
+      "source": "./",
+      "description": "Works out whether an Indian suit, appeal or application is within time under the Limitation Act, 1963 or the governing special statute, and gives the last date to file. Picks the Article of the Schedule (or the special-law period: Arbitration Act s.34/37, Commercial Courts Act, Consumer Protection Act s.69, NI Act s.142, IBC s.61, RERA s.44, Companies Act s.421, RTI, GST, income-tax, MV Act s.166), applies s.12, s.14, s.17, s.18/19, s.4, ss.6–8 and s.22, and the Supreme Court's COVID-19 exclusion (15 March 2020 – 28 February 2022), with a bundled calculator. Use whenever a user asks \"is it time-barred\", \"limitation period for ...\", \"last date to file the appeal\", \"can we still sue\", \"delay condonation\", \"kitne din me appeal file karni hai\", \"time bar ho gaya kya\", or needs a limitation paragraph for a plaint, appeal or s.5 application. Says what can still save a late case and what cannot (s.5 never applies to suits). Criminal cognizance limitation (BNSS s.514) only by pointer.",
+      "version": "2026.11.06",
+      "author": {
+        "name": "Rahul Beniwal",
+        "url": "https://github.com/iambeniwal"
+      },
+      "license": "MIT",
+      "category": "Civil Procedure & Limitation",
+      "skills": [
+        "./skills/limitation-period-calculator"
+      ],
+      "strict": false
+    },
+    {
+      "name": "rera-homebuyer-complaint",
+      "source": "./",
+      "description": "Audits and drafts a homebuyer (allottee) complaint under the Real Estate (Regulation and Development) Act, 2016 for delayed possession, refund with interest, defects, false promises or unregistered projects — and the promoter's reply. Picks the right forum (RERA Authority vs Adjudicating Officer vs consumer commission vs NCLT), forces the refund-or-stay election under s.18, computes months of delay and interest with the bundled calculator at the State's prescribed rate, and produces a State-portal-ready complaint with documents list. Use whenever a user mentions a builder, developer, flat/apartment/plot booking, \"possession delayed\", \"builder refund\", \"RERA complaint\", \"RERA mein case\", \"OC nahi mila\", \"builder paisa nahi de raha\", \"defect in flat\", or wants to reply to a RERA complaint as a promoter. Not for title disputes, landlord–tenant matters, or commercial lease disputes — say so and route elsewhere.",
+      "version": "2026.11.06",
+      "author": {
+        "name": "Rahul Beniwal",
+        "url": "https://github.com/iambeniwal"
+      },
+      "license": "MIT",
+      "category": "Real Estate & RERA",
+      "skills": [
+        "./skills/rera-homebuyer-complaint"
+      ],
+      "strict": false
+    },
+    {
+      "name": "rti-application-drafter",
+      "source": "./",
+      "description": "Drafts Right to Information applications, first appeals and second appeals/complaints under the RTI Act, 2005, and replies to common refusals. Identifies whether the body is a \"public authority\", turns a vague ask into precise numbered questions that a PIO cannot dodge, anticipates the s.8 exemption likely to be claimed and pre-empts it, computes the 30-day / 48-hour / 35-day / 40-day reply deadlines and the 30-day and 90-day appeal windows, and tells the user what to do when there is no reply (deemed refusal). Use whenever a user mentions RTI, \"file an RTI\", \"RTI daalna hai\", \"PIO\", \"CPIO\", \"first appeal\", \"second appeal to CIC/SIC\", \"information commission\", \"government is not giving me the information/file/marks/answer sheet\", or wants records from a ministry, department, municipality, PSU, university, police or court. Not for requests aimed at private individuals or private companies that are not public authorities — say so and route to other remedies.",
+      "version": "2026.11.06",
+      "author": {
+        "name": "Rahul Beniwal",
+        "url": "https://github.com/iambeniwal"
+      },
+      "license": "MIT",
+      "category": "Public Law & RTI",
+      "skills": [
+        "./skills/rti-application-drafter"
+      ],
+      "strict": false
+    }
+  ]
+}

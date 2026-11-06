@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: notice-mode-deadline-table
+expected_outcome: |
+  Produces a deadline table with the 30-day notice deadline of 19 September 2026, explains that the complaint will lie before the Bengaluru court covering the HDFC Koramangala branch under s.142(2), drafts a demand notice that demands the cheque amount of Rs 4,20,000 distinctly, addresses the company and the signatory director (not other directors by title), and opens with a not-legal-advice note.

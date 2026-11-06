@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: bare-420-ipc-lookup
+expected_outcome: |
+  States that IPC s.420 corresponds to BNS s.318(4) (the definition of cheating being s.318(1)), notes the merged sub-section structure, and points to India Code to confirm the text.

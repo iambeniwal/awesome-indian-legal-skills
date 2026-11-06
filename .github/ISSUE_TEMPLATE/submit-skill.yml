@@ -1,0 +1,96 @@
+name: 🚀 Submit a skill
+description: Propose an Indian-law skill for the list (a maintainer will package it if you can't open a PR)
+title: "[Skill]: "
+labels: ["skill-submission", "pending-review"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing! Only submit skills you wrote or have the right to relicense. Every submission is read end to end and checked against current Indian law before it is listed.
+
+  - type: input
+    id: author_name
+    attributes:
+      label: Author name
+      placeholder: "Jane Doe or janedoe"
+    validations:
+      required: true
+
+  - type: input
+    id: author_link
+    attributes:
+      label: Author link
+      description: GitHub, LinkedIn or Bar Council profile
+      placeholder: "https://github.com/janedoe"
+    validations:
+      required: true
+
+  - type: input
+    id: skill_name
+    attributes:
+      label: Skill name
+      description: lowercase-with-hyphens, matches the folder name
+      placeholder: "e.g. gst-show-cause-reply-drafter"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Criminal Law
+        - Civil Procedure & Limitation
+        - Consumer Protection
+        - Real Estate & RERA
+        - Public Law & RTI
+        - Data Protection & Technology
+        - Corporate & Commercial
+        - Banking, Finance & Insolvency
+        - Tax & GST
+        - Employment & Labour
+        - Family Law
+        - Intellectual Property
+        - Legal Drafting
+        - Legal Research & Citations
+        - Legal Education
+        - Skill Authoring
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: 1–3 sentences, descriptive not promotional. What it does and when an agent should use it.
+    validations:
+      required: true
+
+  - type: textarea
+    id: law
+    attributes:
+      label: Law covered
+      description: Acts and sections (current numbering — BNS/BNSS/BSA where relevant), key decisions, State specifics.
+    validations:
+      required: true
+
+  - type: textarea
+    id: skill_file
+    attributes:
+      label: Skill folder
+      description: Drag a .zip of the skill folder here, or paste a link to a public repo.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I wrote this skill (or have the right to license it) and I'm licensing it under MIT or a licence named in LICENSE.txt
+          required: true
+        - label: It contains the "not legal advice" disclaimer and tells the agent which official source to verify against
+          required: true
+        - label: It has no credentials, network calls to unofficial sources, or hidden instructions
+          required: true

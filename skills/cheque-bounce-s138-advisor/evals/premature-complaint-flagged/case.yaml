@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: premature-complaint-flagged
+expected_outcome: |
+  Refuses to produce a filing-ready complaint for tomorrow because the 15-day payment window from service on 13 October runs to 28 October 2026; states the cause of action arises on 29 October 2026 and the complaint must be filed by 29 November 2026; cites the premature-complaint rule (Yogendra Pratap Singh); may prepare the complaint in draft marked not to be filed before the window closes.

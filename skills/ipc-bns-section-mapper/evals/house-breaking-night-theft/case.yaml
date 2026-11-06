@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: house-breaking-night-theft
+expected_outcome: |
+  Identifies house-breaking (BNS s.330(2), defined) with the night/offence aggravation punished under s.331(4) (IPC s.445/s.457), plus theft under s.303(2)/s.305(a) (IPC s.379/s.380); because the act is after 1 July 2024 it says the BNS applies with BNSS procedure, and tells the user to verify on India Code.
